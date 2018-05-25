@@ -1,0 +1,39 @@
+{
+  "name": "manager",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.4.0",
+    "lodash": "^4.17.4",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.4",
+    "react-native-clipboard": "0.0.5",
+    "react-native-communications": "^2.2.1",
+    "react-native-fa-icons": "^3.0.1",
+    "react-native-linear-gradient": "^2.3.0",
+    "react-native-popup-dialog": "^0.9.36",
+    "react-native-progress": "^3.4.0",
+    "react-native-router-flux": "^3.35.0",
+    "react-native-search-box": "0.0.13",
+    "react-native-simple-encryption": "^1.2.1",
+    "react-native-swipe-out": "^2.0.14",
+    "react-native-swipeout": "^2.3.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
